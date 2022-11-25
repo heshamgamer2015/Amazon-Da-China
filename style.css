@@ -1,0 +1,54 @@
+body{
+    font: normal 15px Arial;
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(106, 152, 181);
+    
+}
+#sessao-venda{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column  ;
+    margin-bottom: 40px;
+
+}
+.vetrine{
+    border: 3px solid gold;
+    background-color: rgba(128, 128, 128, 0.614);
+    width: 250px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column  ;
+    margin-top: 30px;
+
+}
+.vetrine_foto{
+   margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+.vetrine_produto_nome{
+    font-weight: 800;
+    text-align: center;
+}
+#itens_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    gap: 40px 40px;
+    
+    
+}
+hr{
+    background-color: gold;
+    border: 10px solid gold;
+    border-radius: 5px;
+    width: 95%;
+}
+
